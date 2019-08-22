@@ -96,11 +96,9 @@ class Danmu():
 
         t1.start()
         t2.start()
-        t3.start()
         # TODO these threads will never join
         t1.join()
         t2.join()
-        t3.join()
 
 
 if __name__ == '__main__':
