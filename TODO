@@ -1,0 +1,8 @@
+[✅]1.弹幕文本识别并打印，绿色 打印文本：【用户昵称： 打卡成功】
+[]2.打卡成功后持久化
+    a. store in file
+        filename: roomid.txt
+        text: uid,nickname,integration,has_checkin
+    b. store in memory, stop and lost
+    c. MongoDB
+[]3.check change to heartbeat
